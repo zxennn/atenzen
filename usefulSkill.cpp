@@ -21,8 +21,7 @@ int main()
     const int b =5;
     auto myFunc = addVal(1);
     int result = myFunc(a,b);
-    
-    // printf("result is %d",int(result));
-std::cout << "result is " << result << std::endl;
+
+    std::cout << "result is " << result << std::endl;
     return 0;
 }
